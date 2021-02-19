@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: auto 65%;
 }
 
 body{
@@ -71,7 +71,6 @@ a{
 }
 
 .section-2 span{
-    font-weight: bold;
     color: #cccccc;
 }
 /* animations / utilities */
