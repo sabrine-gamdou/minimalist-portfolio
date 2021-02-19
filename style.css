@@ -62,11 +62,17 @@ a{
 }
 
 .section-2 a{
-    display: block;
+    /*display: block;*/
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
+    color: cyan;
+}
+
+.section-2 span{
+    font-weight: bold;
+    color: #cccccc;
 }
 /* animations / utilities */
 .section-2 a:hover{
@@ -74,6 +80,7 @@ a{
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
+    color: cyan;
 }
 
 .section-1 a:hover{
